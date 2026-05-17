@@ -9,6 +9,163 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      /* ====== AJUSTES PARA CELULAR ====== */
+
+      html,
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      .app-shell {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+      }
+
+      .topbar {
+        padding: 14px;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .topbar h1 {
+        font-size: 1.5rem;
+      }
+
+      .search-panel {
+        padding: 12px;
+      }
+
+      .search-box input {
+        font-size: 16px;
+      }
+
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .filter-chip {
+        font-size: 0.85rem;
+        padding: 8px 10px;
+      }
+
+      .map-area {
+        height: 42vh;
+        min-height: 320px;
+      }
+
+      .map,
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+
+      .places-panel {
+        padding: 12px;
+        border-radius: 20px 20px 0 0;
+      }
+
+      .places-list {
+        gap: 12px;
+      }
+
+      .place-card,
+      .place-item,
+      .place {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .auth-card {
+        width: calc(100% - 24px);
+        max-width: 420px;
+        padding: 20px;
+      }
+
+      .auth-form input,
+      .auth-form textarea,
+      .sacho-input input,
+      select,
+      textarea {
+        font-size: 16px;
+      }
+
+      .primary-button,
+      .secondary-button,
+      .text-button {
+        min-height: 48px;
+      }
+
+      .sacho-panel {
+        width: calc(100% - 20px);
+        right: 10px;
+        left: 10px;
+        bottom: 10px;
+        max-height: 75vh;
+      }
+
+      .sacho-thread {
+        max-height: 40vh;
+        overflow-y: auto;
+      }
+
+      .place-dialog,
+      .wide-dialog {
+        width: calc(100% - 20px);
+        max-width: 100%;
+        border-radius: 18px;
+        padding: 18px;
+      }
+
+      .settings-panel,
+      .suggest-form {
+        width: 100%;
+      }
+
+      .choice-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .photo-box video,
+      .photo-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+      }
+
+      @media (max-width: 480px) {
+        .topbar-actions {
+          gap: 8px;
+        }
+
+        .icon-button {
+          width: 42px;
+          height: 42px;
+        }
+
+        .panel-title-row {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+        .quick-prompts {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+
+        .quick-prompts button {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <section class="auth-screen" id="authScreen" aria-label="Acceso a IncluMapa">
@@ -222,10 +379,6 @@
         <label class="toggle-row">
           <input id="narrationToggle" type="checkbox" />
           <span>Relatar botones y acciones al tocar</span>
-        </label>
-        <label class="toggle-row">
-          <input id="gestureNavigationToggle" type="checkbox" />
-          <span>Modo exploracion tactil: deslizar para recorrer, doble toque para elegir y triple toque para volver</span>
         </label>
         <p class="form-note">La narracion usa la voz del dispositivo. Tambien funciona con lectores de pantalla del sistema.</p>
         <section class="history-box" aria-label="Historial de lugares">
