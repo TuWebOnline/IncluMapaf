@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Teatro Colon">
+  <rect width="900" height="506" fill="#dfe9e7"/>
+  <rect y="310" width="900" height="196" fill="#176b63"/>
+  <path d="M120 318h660v-42H120z" fill="#f7faf9"/>
+  <path d="M160 276h580l-54-76H214z" fill="#e0a22b"/>
+  <path d="M238 198h424l-48-60H286z" fill="#176b63"/>
+  <g fill="#ffffff"><rect x="188" y="276" width="44" height="130"/><rect x="286" y="276" width="44" height="130"/><rect x="384" y="276" width="44" height="130"/><rect x="482" y="276" width="44" height="130"/><rect x="580" y="276" width="44" height="130"/><rect x="678" y="276" width="44" height="130"/></g>
+  <text x="450" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#176b63">Teatro Colon</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#ffffff">Cultura accesible</text>
+</svg>

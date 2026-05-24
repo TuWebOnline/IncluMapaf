@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Usina del Arte">
+  <rect width="900" height="506" fill="#f3f8f6"/>
+  <rect x="125" y="172" width="650" height="230" rx="12" fill="#176b63"/>
+  <rect x="180" y="112" width="84" height="290" fill="#e0a22b"/><rect x="636" y="112" width="84" height="290" fill="#e0a22b"/>
+  <g fill="#ffffff"><rect x="315" y="220" width="74" height="80"/><rect x="413" y="220" width="74" height="80"/><rect x="511" y="220" width="74" height="80"/></g>
+  <text x="450" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#176b63">Usina del Arte</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#687574">Musica y accesibilidad</text>
+</svg>

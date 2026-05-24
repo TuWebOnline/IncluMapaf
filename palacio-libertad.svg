@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Palacio Libertad">
+  <rect width="900" height="506" fill="#f7faf9"/>
+  <rect x="140" y="150" width="620" height="260" rx="14" fill="#ffffff" stroke="#176b63" stroke-width="8"/>
+  <path d="M190 150h520l-64-70H254z" fill="#e0a22b"/>
+  <g fill="#176b63"><rect x="210" y="210" width="70" height="110"/><rect x="330" y="210" width="70" height="110"/><rect x="500" y="210" width="70" height="110"/><rect x="620" y="210" width="70" height="110"/></g>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#176b63">Palacio Libertad</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#687574">Centro cultural accesible</text>
+</svg>

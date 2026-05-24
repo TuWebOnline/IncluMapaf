@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Centro Cultural Recoleta">
+  <rect width="900" height="506" fill="#f7faf9"/>
+  <rect x="88" y="178" width="724" height="214" rx="16" fill="#ffffff" stroke="#176b63" stroke-width="8"/>
+  <path d="M110 178h680l-80-70H190z" fill="#e0a22b"/>
+  <circle cx="230" cy="280" r="48" fill="#176b63"/><circle cx="450" cy="280" r="48" fill="#8fbfb7"/><circle cx="670" cy="280" r="48" fill="#176b63"/>
+  <text x="450" y="74" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#176b63">Centro Cultural Recoleta</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#687574">Encuentro y cultura</text>
+</svg>

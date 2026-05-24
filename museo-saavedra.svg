@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Museo Saavedra">
+  <rect width="900" height="506" fill="#dfe9e7"/>
+  <rect x="120" y="210" width="660" height="190" rx="12" fill="#ffffff" stroke="#176b63" stroke-width="8"/>
+  <path d="M120 210 450 95l330 115z" fill="#e0a22b"/>
+  <rect x="190" y="265" width="90" height="135" fill="#176b63"/><rect x="405" y="265" width="90" height="135" fill="#176b63"/><rect x="620" y="265" width="90" height="135" fill="#176b63"/>
+  <text x="450" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#176b63">Museo Saavedra</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#687574">Historia accesible</text>
+</svg>

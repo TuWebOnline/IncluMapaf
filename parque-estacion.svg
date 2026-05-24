@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Parque de la Estacion">
+  <rect width="900" height="506" fill="#d7e8e2"/>
+  <path d="M0 360c140-90 270-70 410-20s300 70 490-35v201H0z" fill="#176b63"/>
+  <rect x="150" y="155" width="600" height="160" rx="16" fill="#ffffff" stroke="#176b63" stroke-width="8"/>
+  <path d="M210 235h480" stroke="#e0a22b" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="245" cy="388" r="44" fill="#e0a22b"/><circle cx="648" cy="374" r="56" fill="#e0a22b"/>
+  <text x="450" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#176b63">Parque de la Estacion</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#ffffff">Biblioteca y parque</text>
+</svg>

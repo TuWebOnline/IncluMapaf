@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Teatro San Martin">
+  <rect width="900" height="506" fill="#e8f4ef"/>
+  <rect x="110" y="140" width="680" height="280" rx="10" fill="#ffffff" stroke="#176b63" stroke-width="8"/>
+  <path d="M160 190h580v80H160z" fill="#176b63"/><path d="M160 302h580v70H160z" fill="#e0a22b"/>
+  <text x="450" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#176b63">Teatro San Martin</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#687574">Teatro accesible</text>
+</svg>

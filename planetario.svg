@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Planetario">
+  <rect width="900" height="506" fill="#172c2a"/>
+  <g fill="#ffffff" opacity=".9"><circle cx="130" cy="80" r="5"/><circle cx="230" cy="140" r="4"/><circle cx="730" cy="96" r="6"/><circle cx="805" cy="190" r="4"/><circle cx="625" cy="62" r="3"/></g>
+  <path d="M190 350a260 190 0 0 1 520 0z" fill="#f7faf9"/>
+  <path d="M245 350a205 145 0 0 1 410 0z" fill="#d7e8e2"/>
+  <rect x="150" y="350" width="600" height="48" fill="#176b63"/>
+  <text x="450" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Planetario</text>
+  <text x="450" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#ffffff">Ciencia accesible</text>
+</svg>
